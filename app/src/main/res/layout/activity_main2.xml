@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="403dp"
+        android:layout_height="735dp"
+        android:layout_marginTop="4dp"
+
+        android:background="@drawable/OIP"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="392dp"
+        android:layout_height="156dp"
+        android:background="#B2A08F"
+        android:textAppearance="@color/black"
+        android:text="@string/true_or_false_nelson_mandela_was_imprisoned_in_alcatraz_prison_in_1956"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="137dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#62C13C"
+        android:text="@string/True"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="358dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="131dp"
+        android:layout_height="67dp"
+        android:text="@string/False"
+        android:backgroundTint="#C10D0D"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="468dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+

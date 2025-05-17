@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My IMAD Assignment 2</string>
+    <string name="welcome_buddy_this_is_a_history_flash_card_game_that_displays_true_or_false_questions_based_on_modern_history_lets_test_your_knowledge">WELCOME Buddy !! This is a History Flash card game that displays (true or false) questions based on Modern History. LETS TEST YOUR KNOWLEDGE..</string>
+    <string name="start">START!</string>
+    <string name="true_or_false_nelson_mandela_was_imprisoned_in_alcatraz_prison_in_1956">True or False , Nelson Mandela was imprisoned in Alcatraz prison in 1956.</string>
+    <string name="true">TRUE</string>
+    <string name="True">True</string>
+    <string name="false">FALSE</string>
+    <string name="False">False</string>
+</resources>
