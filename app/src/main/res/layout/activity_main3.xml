@@ -22,11 +22,11 @@
         android:layout_height="292dp"
         android:text="@string/true_or_false_the_colosseum_is_an_elliptical_amphitheatre_in_the_centre_of_the_city_of_rome_italymphitheatre_in_the_centre_of_the_city_of_rome_italy"
         android:textAppearance="@color/black"
-        android:textSize="30sp"
+        android:textSize="33sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="128dp" />
+        tools:layout_editor_absoluteY="88dp" />
 
     <Button
         android:id="@+id/button4"

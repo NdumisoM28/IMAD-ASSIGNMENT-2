@@ -7,4 +7,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
+    <ImageView
+        android:layout_width="635dp"
+        android:layout_height="983dp"
+        android:background="@drawable/apa"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <TextView
+        android:layout_width="545dp"
+        android:layout_height="260dp"
+        android:text="@string/apartheid_was_a_system_of_institutionalised_racial_segregation_that_existed_in_south_africa_and_south_west_africa_from_1948_to_the_early_1990s"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:textAppearance="@color/black"
+        android:padding="@dimen/material_emphasis_disabled_background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="159dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#15A10C"
+        android:text="@string/True"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="148dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#F41113"
+        android:text="@string/False"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="644dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
