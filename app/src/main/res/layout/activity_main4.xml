@@ -22,7 +22,6 @@
         android:textSize="33sp"
         android:textStyle="bold"
         android:textAppearance="@color/black"
-        android:padding="@dimen/material_emphasis_disabled_background"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="54dp" />
