@@ -12,7 +12,6 @@
         android:layout_width="403dp"
         android:layout_height="735dp"
         android:layout_marginTop="4dp"
-
         android:background="@drawable/OIP"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="2dp"
