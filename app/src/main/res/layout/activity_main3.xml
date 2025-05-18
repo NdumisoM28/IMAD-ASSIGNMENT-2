@@ -10,19 +10,45 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background=""
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="292dp" />
+        android:layout_width="425dp"
+        android:layout_height="742dp"
+        android:background="@drawable/OIP1"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-6dp" />
 
     <TextView
-        android:layout_width="389dp"
-        android:layout_height="196dp"
-        android:text="@string/true_or_false_the_colosseum_is_an_elliptical_amphitheatre_in_the_centre_of_the_city_of_rome_italy_and_was_completed_in_ad_80"
+        android:layout_width="408dp"
+        android:layout_height="292dp"
+        android:text="@string/true_or_false_the_colosseum_is_an_elliptical_amphitheatre_in_the_centre_of_the_city_of_rome_italymphitheatre_in_the_centre_of_the_city_of_rome_italy"
+        android:textAppearance="@color/black"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="173dp"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="128dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="436dp"
+        android:backgroundTint="#15A10C"
+        android:text="@string/True"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="122dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#F41113"
+        android:text="@string/False"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="560dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

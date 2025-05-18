@@ -8,4 +8,8 @@
     <string name="false">FALSE</string>
     <string name="False">False</string>
     <string name="true_or_false_the_colosseum_is_an_elliptical_amphitheatre_in_the_centre_of_the_city_of_rome_italy_and_was_completed_in_ad_80">TRUE OR FALSE , The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy and was completed in AD 80.</string>
+    <string name="true_or_false_the_colosseum_is_an_elliptical_amphitheatre_in_the_centre_of_the_city_of_rome_italy">"The colleseum "</string>
+    <string name="true_or_false_the_colosseum_is_an_elliptical_mphitheatre_in_the_centre_of_the_city_of_rome_italy">The Colosseum  is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum</string>
+    <string name="true_or_false_the_colosseum_is_an_elliptical_aamphitheatre_in_the_centre_of_the_city_of_rome_italy">TRE OR FALSE , The Colosseum  is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum.</string>
+    <string name="true_or_false_the_colosseum_is_an_elliptical_amphitheatre_in_the_centre_of_the_city_of_rome_italymphitheatre_in_the_centre_of_the_city_of_rome_italy">TRUE OR FALSE , The Colosseum is an elliptical amphitheatre in the centre of the city of Rome , Italy ,just east of the Roman Forum.</string>
 </resources>
