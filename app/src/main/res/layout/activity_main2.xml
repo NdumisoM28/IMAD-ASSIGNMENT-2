@@ -34,7 +34,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/truebutton2"
+        android:id="@+id/trueButton2"
         android:layout_width="127dp"
         android:layout_height="79dp"
         android:backgroundTint="#62C13C"
@@ -44,13 +44,13 @@
         tools:layout_editor_absoluteY="430dp" />
 
     <Button
-        android:id="@+id/falsebutton3"
+        android:id="@+id/falseButton3"
         android:layout_width="129dp"
         android:layout_height="73dp"
         android:backgroundTint="#C10D0D"
         android:text="@string/False"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/truebutton2"
+        app:layout_constraintStart_toEndOf="@+id/trueButton2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="436dp" />
 

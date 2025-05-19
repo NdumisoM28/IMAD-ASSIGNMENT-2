@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
         }
         startButton = findViewById(R.id.startButton)
            startButton.setOnClickListener{
-                // Create an explicit intent to start SecondActivity
                 val intent = Intent(this , MainActivity2::class.java)
                 startActivity(intent) // Start the activity
             }

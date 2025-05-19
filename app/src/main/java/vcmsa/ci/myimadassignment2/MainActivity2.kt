@@ -1,5 +1,6 @@
 package vcmsa.ci.myimadassignment2
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -16,6 +17,7 @@ abstract class MainActivity2 : AppCompatActivity() , View.OnClickListener {
     private lateinit var trueButton: Button
     private lateinit var falseButton: Button
     private lateinit var nextButton: Button
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -27,8 +29,8 @@ abstract class MainActivity2 : AppCompatActivity() , View.OnClickListener {
         }
 
         questionTextView = findViewById(R.id.textView2)
-        trueButton = findViewById(R.id.truebutton2)
-        falseButton = findViewById(R.id.falsebutton3)
+        trueButton = findViewById(R.id.trueButton2)
+        falseButton = findViewById(R.id.falseButton3)
         nextButton = findViewById(R.id.NQbutton10)
 
         trueButton.setOnClickListener(this)
@@ -39,12 +41,12 @@ abstract class MainActivity2 : AppCompatActivity() , View.OnClickListener {
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.truebutton2 -> {
+            R.id.trueButton2 -> {
                 // Nelson Mandela was NOT imprisoned in Alcatraz in 1956, so "True" is incorrect.
                 Toast.makeText(this, "Incorrect", Toast.LENGTH_SHORT).show()
             }
 
-            R.id.falsebutton3 -> {
+            R.id.falseButton3 -> {
                 // Nelson Mandela was NOT imprisoned in Alcatraz in 1956, so "False" is correct.
                 Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
             }
