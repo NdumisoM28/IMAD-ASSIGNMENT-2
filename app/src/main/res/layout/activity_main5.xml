@@ -7,19 +7,65 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background=""
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/moon"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
+        android:id="@+id/textView4"
+        android:layout_width="328dp"
+        android:layout_height="154dp"
+        android:background="@color/black"
+        android:text="@string/the_second_man_to_walk_on_the_moon_in_1969_was_mark_shuttleworth"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
 
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="121dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#CA0B0C"
+        android:text="@string/False"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.513" />
 
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="121dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#48BE1A"
+        android:text="@string/True"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="132dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/next_question"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.742" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

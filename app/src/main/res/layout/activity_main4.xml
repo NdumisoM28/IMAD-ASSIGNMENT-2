@@ -8,23 +8,27 @@
     tools:context=".MainActivity4">
 
     <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="635dp"
         android:layout_height="983dp"
         android:background="@drawable/apa"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-55dp"
-        tools:layout_editor_absoluteY="-50dp" />
+        tools:layout_editor_absoluteX="-102dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:layout_width="545dp"
-        android:layout_height="260dp"
+        android:id="@+id/textView3"
+        android:layout_width="376dp"
+        android:layout_height="280dp"
         android:text="@string/apartheid_was_a_system_of_institutionalised_racial_segregation_that_existed_in_south_africa_and_south_west_africa_from_1948_to_the_early_1990s"
+        android:textAppearance="@color/black"
         android:textSize="33sp"
         android:textStyle="bold"
-        android:textAppearance="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="54dp" />
+        android:background="#CECECE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button6"
@@ -34,9 +38,10 @@
         android:text="@string/True"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="458dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -46,20 +51,25 @@
         android:text="@string/False"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="458dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="144dp"
         android:layout_height="71dp"
-        android:layout_marginBottom="40dp"
-        android:text="@string/next_question"
         android:backgroundTint="@color/black"
+        android:text="@string/next_question"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.797" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

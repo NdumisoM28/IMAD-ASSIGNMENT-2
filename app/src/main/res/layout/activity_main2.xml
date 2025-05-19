@@ -14,21 +14,24 @@
         android:layout_marginTop="4dp"
         android:background="@drawable/OIP"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="2dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="392dp"
-        android:layout_height="156dp"
-        android:background="#"
+        android:layout_width="324dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/white"
         android:text="@string/true_or_false_nelson_mandela_was_imprisoned_in_alcatraz_prison_in_1956"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="128dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
