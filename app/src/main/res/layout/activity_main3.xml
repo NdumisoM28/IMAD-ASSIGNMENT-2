@@ -32,13 +32,13 @@
         android:id="@+id/button4"
         android:layout_width="128dp"
         android:layout_height="75dp"
-        android:layout_marginTop="436dp"
+        android:layout_marginTop="452dp"
         android:backgroundTint="#15A10C"
         android:text="@string/True"
         android:textSize="15sp"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="135dp" />
+        tools:layout_editor_absoluteX="30dp" />
 
     <Button
         android:id="@+id/button5"
@@ -47,8 +47,8 @@
         android:backgroundTint="#F41113"
         android:text="@string/False"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="560dp" />
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="455dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

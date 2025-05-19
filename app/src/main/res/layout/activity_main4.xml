@@ -32,11 +32,11 @@
         android:layout_height="91dp"
         android:backgroundTint="#15A10C"
         android:text="@string/True"
-        android:textStyle="bold"
         android:textSize="20sp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="481dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="458dp" />
 
     <Button
         android:id="@+id/button7"
@@ -47,7 +47,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="644dp" />
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="458dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

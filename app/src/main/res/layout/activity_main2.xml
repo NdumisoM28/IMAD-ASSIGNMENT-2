@@ -21,10 +21,11 @@
         android:id="@+id/textView2"
         android:layout_width="392dp"
         android:layout_height="156dp"
-        android:background="#B2A08F"
+        android:background="#B2A08"
         android:textAppearance="@color/black"
         android:text="@string/true_or_false_nelson_mandela_was_imprisoned_in_alcatraz_prison_in_1956"
         android:textSize="30sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="137dp"
         tools:ignore="MissingConstraints" />
@@ -35,19 +36,19 @@
         android:layout_height="79dp"
         android:backgroundTint="#62C13C"
         android:text="@string/True"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="358dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="410dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="131dp"
-        android:layout_height="67dp"
-        android:text="@string/False"
+        android:layout_width="129dp"
+        android:layout_height="73dp"
         android:backgroundTint="#C10D0D"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="468dp"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/False"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="410dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
