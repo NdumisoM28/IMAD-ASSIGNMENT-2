@@ -15,7 +15,7 @@
         android:background="@drawable/OIP"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="4dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.661" />
+        app:layout_constraintVertical_bias="0.738" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
