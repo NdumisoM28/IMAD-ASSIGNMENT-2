@@ -14,8 +14,8 @@ tools:context=".MainActivity">
         android:layout_height="wrap_content"
         android:background="@drawable/img"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/textView"
