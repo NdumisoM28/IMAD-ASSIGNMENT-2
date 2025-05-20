@@ -12,20 +12,23 @@
         android:layout_width="635dp"
         android:layout_height="983dp"
         android:background="@drawable/apa"
+        android:contentDescription="@string/todo1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-101dp"
         tools:layout_editor_absoluteY="-15dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView4"
         android:layout_width="376dp"
         android:layout_height="280dp"
+        android:layout_marginTop="16dp"
+        android:background="#CECECE"
         android:text="@string/apartheid_was_a_system_of_institutionalised_racial_segregation_that_existed_in_south_africa_and_south_west_africa_from_1948_to_the_early_1990s"
         android:textAppearance="@color/black"
         android:textSize="33sp"
         android:textStyle="bold"
-        android:background="#CECECE"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -40,7 +43,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -55,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toEndOf="@+id/trueButton6"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -69,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.836" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
