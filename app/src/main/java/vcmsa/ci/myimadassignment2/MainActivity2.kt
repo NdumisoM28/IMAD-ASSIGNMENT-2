@@ -1,8 +1,8 @@
 package vcmsa.ci.myimadassignment2
 
+
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -11,49 +11,75 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-abstract class MainActivity2 : AppCompatActivity() , View.OnClickListener {
-    private lateinit var questionTextView: TextView
-    private lateinit var trueButton: Button
-    private lateinit var falseButton: Button
-    private lateinit var nextButton: Button
+class MainActivity2 : AppCompatActivity() {
+
+    private var userScore: Int = 0
+    private val correctAnswer: Boolean = false // Nelson Mandela was NOT imprisoned in Alcatraz
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_main2) // Your second XML layout
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        questionTextView = findViewById(R.id.textView2)
-        trueButton = findViewById(R.id.trueButton2)
-        falseButton = findViewById(R.id.falseButton3)
-        nextButton = findViewById(R.id.NQbutton10)
+        // Retrieve the score passed from the previous activity
+        userScore = intent.getIntExtra("USER_SCORE", 0)
 
-        trueButton.setOnClickListener(this)
-        falseButton.setOnClickListener(this)
-        nextButton.setOnClickListener(this)
+        val trueButton: Button = findViewById(R.id.trueButton2)
+        val falseButton: Button = findViewById(R.id.falseButton3)
+        val nextQuestionButton: Button = findViewById(R.id.NQbutton10) // Note: ID in XML is NQButton10
 
-    }
+        // Disable next button until an answer is chosen
+        nextQuestionButton.isEnabled = false
 
-    override fun onClick(v: View?) {
-        when (v?.id) {
-            R.id.trueButton2 -> {
-                // Nelson Mandela was NOT imprisoned in Alcatraz in 1956, so "True" is incorrect.
-                Toast.makeText(this, "Incorrect", Toast.LENGTH_SHORT).show()
-            }
-
-            R.id.falseButton3 -> {
-                // Nelson Mandela was NOT imprisoned in Alcatraz in 1956, so "False" is correct.
-                Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
-            }
-            R.id.NQbutton10 -> {
-                    // Create an Intent to navigate to MainActivity3
-                    val intent = Intent(this, MainActivity3::class.java)
-            }
+        trueButton.setOnClickListener {
+            checkAnswer(true)
+            disableAnswerButtons(trueButton, falseButton)
+            nextQuestionButton.isEnabled = true
         }
 
+        falseButton.setOnClickListener {
+            checkAnswer(false)
+            disableAnswerButtons(trueButton, falseButton)
+            nextQuestionButton.isEnabled = true
+        }
+
+        nextQuestionButton.setOnClickListener {
+            val intent = Intent(this, MainActivity3::class.java)
+            intent.putExtra("USER_SCORE", userScore) // Pass the updated score
+            startActivity(intent)
+            finish() // Finish this activity so user can't go back with back button
+        }
+    }
+
+
+
+
+    private fun checkAnswer(userAnswer: Boolean) {
+        if (userAnswer == correctAnswer) {
+            userScore++
+            Toast.makeText(this, R.string.correct_answer_message, Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, R.string.incorrect_answer_message, Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun disableAnswerButtons(button1: Button, button2: Button) {
+        button1.isEnabled = false
+        button2.isEnabled = false
     }
 }
+
+class MainActivity3 {
+
+}
+
+
+
+
+
