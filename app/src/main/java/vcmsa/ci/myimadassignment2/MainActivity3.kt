@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 abstract class MainActivity3 : AppCompatActivity() , View.OnClickListener {
-    private lateinit var TextView3: TextView
+    private lateinit var textView3: TextView
     private lateinit var trueButton4: Button
     private lateinit var falseButton5: Button
     private lateinit var nqButton9: Button
@@ -28,7 +28,7 @@ abstract class MainActivity3 : AppCompatActivity() , View.OnClickListener {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        TextView3 = findViewById(R.id.textView3)
+        textView3 = findViewById(R.id.textView3)
         trueButton4 = findViewById(R.id.trueButton4)
         falseButton5 = findViewById(R.id.falseButton5)
         nqButton9 = findViewById(R.id.nqButton9)

@@ -41,7 +41,7 @@
         android:layout_width="113dp"
         android:layout_height="62dp"
         android:backgroundTint="@color/black"
-        android:text="@string/next_question"
+        android:text="@string/final_score"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

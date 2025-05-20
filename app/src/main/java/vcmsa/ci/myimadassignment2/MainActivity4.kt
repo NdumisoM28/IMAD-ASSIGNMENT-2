@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 abstract class MainActivity4 : AppCompatActivity() , View.OnClickListener {
-    private lateinit var TextView4: TextView
+    private lateinit var textView4: TextView
     private lateinit var trueButton6: Button
     private lateinit var falseButton7: Button
     private lateinit var nqButton8: Button
@@ -26,7 +26,7 @@ abstract class MainActivity4 : AppCompatActivity() , View.OnClickListener {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        TextView4 = findViewById(R.id.textView4)
+        textView4 = findViewById(R.id.textView4)
         trueButton6 = findViewById(R.id.trueButton6)
         falseButton7 = findViewById(R.id.falseButton7)
         nqButton8 = findViewById(R.id.nqButton8)
@@ -39,12 +39,12 @@ abstract class MainActivity4 : AppCompatActivity() , View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.trueButton6 -> {
-                // The Apartheird system was in South Africa and West Africa ,so True" is correct
+                // The Apartheid system was in South Africa and West Africa ,so True" is correct
                 Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
             }
 
             R.id.falseButton7 -> {
-                // The Apartheird system was in South Africa and West Africa, so "False" is incorrect.
+                // The Apartheid system was in South Africa and West Africa, so "False" is incorrect.
                 Toast.makeText(this, "Incorrect", Toast.LENGTH_SHORT).show()
 
             }
