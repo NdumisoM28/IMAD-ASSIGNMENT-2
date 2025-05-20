@@ -7,4 +7,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity7">
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="681dp"
+        android:layout_height="899dp"
+        android:background="@drawable/score"
+        android:contentDescription="@string/todo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-157dp" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="252dp"
+        android:layout_height="171dp"
+        android:text="@string/score"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

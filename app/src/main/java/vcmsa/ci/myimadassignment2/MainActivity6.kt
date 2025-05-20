@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-abstract class MainActivity6 : AppCompatActivity() , View.OnClickListener{
+abstract class MainActivity6 : AppCompatActivity() , View.OnClickListener {
     private lateinit var textView6: TextView
     private lateinit var trueButton15: Button
     private lateinit var falseButton16: Button
@@ -34,6 +34,7 @@ abstract class MainActivity6 : AppCompatActivity() , View.OnClickListener{
         falseButton16.setOnClickListener(this)
         nqButton14.setOnClickListener(this)
     }
+
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.trueButton15 -> {
@@ -47,8 +48,12 @@ abstract class MainActivity6 : AppCompatActivity() , View.OnClickListener{
 
             }
 
-            R.id.nqButton14-> {
+            R.id.nqButton14 -> {
                 // Create an Intent to navigate to MainActivity7
-                val intent = Intent(this, MainActivity7::class.java5
+                val intent = Intent(this, MainActivity7::class.java)
+
+            }
+        }
     }
+}
 
