@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.513" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/tueButton12"
         android:layout_width="121dp"
         android:layout_height="66dp"
         android:backgroundTint="#48BE1A"

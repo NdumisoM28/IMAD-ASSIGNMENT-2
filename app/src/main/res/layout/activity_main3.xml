@@ -10,12 +10,13 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="425dp"
-        android:layout_height="742dp"
+        android:layout_width="542dp"
+        android:layout_height="898dp"
         android:background="@drawable/OIP1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="-7dp"
-        tools:layout_editor_absoluteY="-6dp" />
+        tools:layout_editor_absoluteX="-47dp" />
 
     <TextView
         android:layout_width="371dp"

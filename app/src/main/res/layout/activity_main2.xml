@@ -9,13 +9,13 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="403dp"
-        android:layout_height="735dp"
+        android:layout_width="398dp"
+        android:layout_height="894dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/OIP"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="4dp" />
+        tools:layout_editor_absoluteX="7dp" />
 
     <TextView
         android:id="@+id/textView2"
